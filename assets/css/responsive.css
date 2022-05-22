@@ -1,0 +1,2651 @@
+/*
+	@File:Sylcart Styles
+
+	* This file contains the styling for the actual template, this
+	is the file you need to edit to change the look of the
+	template.
+
+	This files contents are outlined below>>>>>
+
+	*******************************************
+	*******************************************
+
+	==== INDEX PAGE CSS
+	
+	** - Default CSS
+	** - 
+*/
+@media (min-width: 320px) and (max-width: 575px) {
+  .menu-shrink {
+    display: none;
+  }
+  .inner_banner_area {
+    height: 300px;
+  }
+  .sh_search_box {
+    display: none;
+  }
+  header.header_area .header_left .header_left_titel h3 {
+    visibility: hidden;
+  }
+  header.header_area .header_left .header_left_titel #nav_icon {
+    left: 19%;
+  }
+  header.header_area .header_left {
+    width: 48px;
+  }
+  header.header_area {
+    display: block;
+  }
+  header.header_area .mb_search_icon {
+    display: inline !important;
+  }
+  .shopping_mall_area {
+    text-align: center;
+  }
+  .middle_content_area .hero_area_banner .banner_img .banner_item_ctn img {
+    height: 250px;
+  }
+  .middle_content_area .hero_area_banner .banner_img .owl-dots {
+    left: 32%;
+  }
+  .fotter_ctn {
+    margin-bottom: 20px;
+  }
+  .newsletter_area .newsletter_ctn h4 {
+    font-size: 20px;
+  }
+  .newsletter_area .newsletter_ctn .btn {
+    top: 38px;
+  }
+  .single_shop_area .header_left .left_menu {
+    position: relative;
+    width: 100%;
+  }
+  .single_shop_area .header_left .left_menu ul li .sub_menu {
+    position: relative;
+    right: 0px;
+    display: none;
+    width: 100%;
+  }
+  .single_shop_area .header_left .left_menu ul li:hover .sub_menu {
+    display: block;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .single_shop_area .store_mall_area {
+    text-align: center;
+  }
+  .single_shop_area .store_mall_area ul li.store_top_ctn {
+    margin: 0 40px;
+  }
+  .single_shop_area .store_mall_area ul li.store_ctn {
+    margin: 0 40px;
+  }
+  .product_diplay ul li {
+    width: 54px;
+  }
+  .product_details_area .product_details .product_details_btn ul li a.btn span {
+    display: none;
+  }
+  .product_details_area .product_details .product_details_btn ul li a.btn i {
+    margin-right: 0px;
+  }
+  .product_description .pro_description_ctn .singel_product li.nav-item a.nav-link {
+    font-size: 13px;
+  }
+  .wishlist_area .wish_right {
+    top: 0%;
+  }
+  .cart_page .cart_content .cart_detail .cart_name {
+    display: block;
+  }
+  .cart_page .cart_content .cart_detail .cart_name .cart_ctn .size {
+    font-size: 11px;
+  }
+  .cart_page .cart_content .cart_detail .cart_name .cart_ctn .color_virson {
+    font-size: 11px;
+  }
+  .cart_page .cart_content .cart_detail .cart_name .cart_ctn .c_titel a {
+    font-size: 11px;
+  }
+  .cart_page .cart_content .cart_detail .cart_quantity .minus {
+    left: 5%;
+  }
+  .cart_page .cart_content .cart_detail .cart_quantity .plus {
+    right: 21%;
+  }
+  .cart_page .cart_btn .clear_btn {
+    font-size: 12px;
+    padding: 11px 9px;
+    letter-spacing: 0px;
+  }
+  .cart_page .cart_btn .shopping .shopping_btn {
+    font-size: 12px;
+    padding: 11px 9px;
+    letter-spacing: 0px;
+  }
+  .cart_page .cart_content .cart_detail .cart_quantity input[type="number"] {
+    width: 51%;
+  }
+  .right_usear_board {
+    display: none;
+  }
+  .user_middle_content_area .main_cont .input_box input {
+    width: 200px;
+  }
+  .user_middle_content_area .main_cont .input_box select {
+    width: 216px;
+  }
+  .user_middle_content_area .main_cont .input_checkbox_box .right_checkbox label {
+    width: 30px;
+  }
+  .user_middle_content_area .main_cont .input_box input[type="checkbox"] {
+    width: 30px;
+  }
+  .checkout_page .check_out_area .checkout_tab_bar ul li a {
+    font-size: 14px;
+    padding: 0 10px 0 21px;
+    margin-bottom: 10px;
+  }
+  .checkout_page .check_out_area #pills-tabContent #pills_methods .shipping_methods_ctn .form label {
+    font-size: 14px;
+  }
+  .login_registration_area #formHolder .brand {
+    display: none;
+  }
+  .login_registration_area {
+    padding: 20px 0;
+  }
+  .login_registration_area #formHolder .form {
+    height: 540px;
+  }
+  .login_registration_area #formHolder .form .CTA input {
+    padding: 5px 14px;
+    margin-right: 9px;
+  }
+  .login_registration_area #formHolder .form form {
+    padding: 0 30px;
+  }
+  .mb_header_area .modal {
+    left: -6px;
+  }
+  .top_mb_bar .header_rt_box ul li a .menu_item img {
+    width: 24px;
+  }
+  .top_mb_bar .header_rt_box ul li {
+    margin-right: 10px;
+  }
+  .service_ctn::after {
+    display: none;
+  }
+  .service_area .service_inner_ctn .service_ctn {
+    margin-bottom: 10px;
+  }
+  .offer_area .offer_box {
+    margin-bottom: 20px;
+  }
+  .offer_area .middlebanner {
+    padding: 0 14px;
+  }
+  .offer_area .firstbanner {
+    padding-right: 12px;
+  }
+  .offer_area .secondbanner {
+    padding-left: 16px;
+  }
+  .form_check {
+    margin-bottom: 0px;
+    padding-left: 10px;
+  }
+  .logo {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .login_registration_area #formHolder .form .form-peice {
+    min-height: 500px;
+    padding: 0px 0 0px;
+  }
+  .related_pro_area .related_pro_slider .slick-next.slick-arrow i {
+    right: 15px;
+  }
+  .single_store_middle_ctn .banner_area .banner_img .banner_item_ctn img {
+    height: 250px;
+  }
+  .related_pro_area .slick-prev {
+    left: -4px;
+    z-index: 999;
+  }
+  .related_pro_area .slick-next {
+    right: -15px;
+  }
+  .slick-next {
+    right: -15px;
+  }
+  .single_shop_area .filter_area .filter_titel h4 {
+    width: 62%;
+    left: 14px;
+  }
+  .single_shop_area .filter_area .store_filter_box .box_ctn .brand_item .form-group label {
+    font-size: 13px;
+  }
+  .sort_by_ctn {
+    top: 8px;
+    left: -49px;
+  }
+  .section_titel h4 {
+    font-size: 34px;
+  }
+  .inner_banner_area .banner_content .inner_titel {
+    font-size: 34px;
+  }
+  .letest_listing_area .latest_listing_menu {
+    margin-bottom: 20px;
+  }
+  .letest_listing_area .latest_listing_menu button {
+    font-size: 14px;
+    margin-bottom: 10px;
+    width: 47%;
+    margin-right: 6px;
+  }
+  .hotel_list_area .filter_area .hotel_filter_box .box_ctn .search_for p a.btn {
+    width: 100%;
+  }
+  .house_list_area .filter_area .hospital_filter_box .box_ctn .search_for p a.btn {
+    width: 100%;
+  }
+  .house_list_area .filter_area {
+    margin-bottom: 30px;
+  }
+  .hotel_list_area .filter_area {
+    margin-bottom: 30px;
+  }
+  .hotel_list_area .filter_area .hotel_filter_box .box_ctn .search_for p a.btn {
+    width: 100%;
+  }
+  .hotel_list_area .restaurent_list .hotel_listing_ctn ul li .listing_item .listing_txt .rating {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .hotel_list_area .restaurent_list .hotel_listing_ctn ul li .listing_item .listing_txt .rating ul {
+    margin-right: 80px;
+  }
+  .hotel_list_area .restaurent_list .hotel_listing_ctn ul li .listing_item .listing_txt .rating ul li {
+    margin-right: 0;
+    display: inline-block;
+  }
+  .hotel_list_area .restaurent_list .hotel_listing_ctn ul li .listing_item .listing_txt .rating p {
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 5px;
+  }
+  .hotel_list_area .restaurent_list .hotel_listing_ctn ul li .listing_item .location_map {
+    margin-bottom: 10px;
+  }
+  .hotel_list_area .restaurent_list .hotel_listing_ctn ul li .listing_item .location_map ul li {
+    display: inline-block;
+  }
+  .adli_mb_20 {
+    margin-bottom: 20px;
+  }
+  .add_listing_area .notification_email input {
+    width: 100%;
+    margin: 0;
+  }
+  .inner_banner_area .house_banner_content .houser_inner_left .pro_info .titel h1 {
+    font-size: 22px;
+  }
+  .inner_banner_area .house_banner_content .houser_inner_left .pro_info .titel .price span {
+    font-size: 24px;
+  }
+  .inner_banner_area .house_banner_content {
+    top: 31%;
+  }
+  .inner_banner_area .house_banner_content .house_inner_right {
+    margin-top: 0px;
+    text-align: left;
+  }
+  .inner_banner_area .house_banner_content .house_inner_right ul li a.btn {
+    font-size: 14px;
+    padding: 4px 18px;
+  }
+  .slick-prev {
+    left: 27px;
+  }
+  .related_listing_area .related_pro_slider .slick-prev.slick-arrow i {
+    font-size: 28px;
+  }
+  .related_listing_area .related_pro_slider .slick-next.slick-arrow i {
+    font-size: 28px;
+    right: 2px;
+  }
+  .inner_banner_area .hotel_banner_content .houser_inner_left .pro_info .titel h1 {
+    font-size: 18px;
+  }
+  .inner_banner_area .house_banner_content .house_inner_right .reference p {
+    margin-bottom: 8px;
+  }
+  .booking_process_area #checkout-progress .progress-bar .step .step-label {
+    white-space: break-spaces;
+    margin-left: 40px;
+  }
+  .booking_process_area #checkout-progress .progress-bar .step::after {
+    right: 13%;
+    top: 9%;
+  }
+  .booking_process_area #boking_step_1 .process__stepint p {
+    font-size: 13px;
+  }
+  .booking_process_area #boking_step_1 .process_start .condition {
+    margin-top: 20px;
+  }
+  .booking_process_area #boking_step_1 .process_start #sp_request textarea {
+    width: 100%;
+  }
+  .booking_process_area #boking_step_1 .process_start #arrival_info select {
+    width: 100%;
+  }
+  .booking_process_area .booking_details_right {
+    margin-top: 40px;
+  }
+  .booking_process_area #checkout-progress .progress-bar .step .fa-check {
+    right: 33%;
+    top: 9%;
+  }
+  .booking_process_area #boking_step_2 .payment_confirmation .con_agre {
+    margin-top: 15px;
+  }
+  .booking_process_area #boking_step_3 .booking_final input {
+    width: 100%;
+  }
+  .property_description_area .property_description_left .property_description .facilitics_list ul li {
+    width: 70%;
+  }
+  .sm_section_padding_3 {
+    padding: 40px 0 60px;
+  }
+  .sm_section_padding {
+    padding: 60px 0;
+  }
+  .property_description_area .property_detail_info .details ul li .details_right {
+    width: 70%;
+  }
+  .inner_banner_area .search_box .form-group a.loc_btn {
+    position: absolute;
+    top: 102%;
+    right: 0%;
+    border: 1px solid #06acde;
+    height: 100%;
+    color: #fff;
+    padding: 14px;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+    width: 100%;
+    left: 0;
+    margin: auto;
+    text-align: left;
+    border-radius: 5px;
+  }
+  .search_box .form-group a.search_btn {
+    position: absolute;
+    top: 208%;
+    right: 0;
+    background: #06acde;
+    color: #fff;
+    padding: 6px 28px;
+    font-size: 20px;
+    line-height: 1.5;
+    width: 100%;
+    left: 0;
+    margin: auto;
+  }
+  .inner_banner_area .banner_content {
+    position: absolute;
+    top: 24%;
+    left: 0%;
+    right: 0;
+    z-index: 1;
+  }
+  .inner_banner_area .banner_content .inner_titel {
+    font-size: 22px;
+  }
+  .inner_banner_area .search_box {
+    margin-top: 30px;
+  }
+  .inner_banner_area .banner_content {
+    top: 27%;
+  }
+  .inner_banner_area .banner_img .banner_item_ctn img {
+    height: 300px;
+  }
+  .top_mb_bar.re_mb_bar {
+    position: relative;
+    top: 2%;
+    padding-bottom: 15px;
+  }
+  .top_mb_bar.re_mb_bar .header_rt_box ul li .mb_search_icon {
+    color: #4d4d4d;
+  }
+  .top_mb_bar .header_rt_box ul li .drop_search_box {
+    width: 300px;
+    right: -124px;
+  }
+  .middle_content_area .single_shopping_mall {
+    position: relative;
+    padding: 30px;
+    width: 100%;
+    left: 0%;
+    top: 10%;
+    margin-bottom: 30px;
+  }
+  .middle_content_area .single_shopping_mall h4 {
+    font-size: 17px;
+  }
+  .middle_content_area .single_shopping_mall h5 a {
+    font-size: 16px;
+  }
+  .inn_banner_Style .banner_content h2 {
+    font-size: 34px;
+  }
+  .inn_banner_Style .banner_content {
+    left: 23%;
+  }
+  .contact_left {
+    margin-bottom: 30px;
+  }
+  .about_area .about_left {
+    margin-bottom: 30px;
+  }
+  .about_area .about_right {
+    position: relative;
+    top: 0;
+  }
+  .blog_page_area .blog_page .blog_ctn .blog_img figure {
+    width: 288px;
+    height: 184px;
+  }
+  .blog_page_area .blog_page .pagination {
+    margin: 30px 0 0px 0px;
+  }
+  .blog_page_area .blog_page .pagination a {
+    font-size: 14px;
+    width: 22px;
+    height: 22px;
+    line-height: 21px;
+  }
+  .sidebar_area {
+    margin-top: 40px;
+  }
+  .tourist_banner_area .tourist_banner_content {
+    top: 17%;
+  }
+  .tourist_banner_area .tourist_banner_content h1 {
+    font-size: 34px;
+  }
+  .tourist_banner_area .tourist_banner_content p {
+    font-size: 16px;
+  }
+  .toure_package_area .package_ctn {
+    margin-bottom: 30px;
+  }
+  .tour_destination_area .left_destination {
+    display: block;
+    margin-bottom: 40px;
+  }
+  .tour_destination_area .left_destination .destination_image {
+    width: 100%;
+    display: block;
+  }
+  .why_choose_left {
+    margin-bottom: 40px;
+  }
+  .destination_detail_area .destination_detail_box {
+    margin-bottom: 40px;
+  }
+  .slick-prev.slick-arrow {
+    display: none !important;
+  }
+  .slick-next.slick-arrow {
+    display: none !important;
+  }
+  .tourist_banner_area .tourist_banner_content .tour_search {
+    width: 90%;
+    padding: 30px 20px 80px 20px;
+    margin: 30px auto 0;
+  }
+  .tourist_banner_area .tourist_banner_content .tour_search .tour_loc_icon {
+    top: 15%;
+    left: 10%;
+  }
+  .tourist_banner_area .tourist_banner_content .tour_search .tour_month {
+    position: relative;
+    top: 0;
+    left: 0%;
+    height: 50px;
+    width: 100%;
+    margin: 16px 0;
+  }
+  .tourist_banner_area .tourist_banner_content .tour_search .cle_icon {
+    top: 38%;
+    left: 10%;
+  }
+  .tourist_banner_area .tourist_banner_content .tour_search .tour_type {
+    position: relative;
+    top: 0%;
+    right: 0%;
+    height: 50px;
+    width: 100%;
+  }
+  .tourist_banner_area .tourist_banner_content .tour_search .flg_icon {
+    top: 60%;
+    right: 86%;
+  }
+  .tourist_banner_area .tourist_banner_content .tour_search select {
+    border: 1px solid #ecebeb;
+  }
+  .tourist_banner_area .tourist_banner_content .tour_search .btn {
+    top: 78%;
+    right: 54px;
+  }
+  .toure_package_area.sm_section_padding {
+    padding-top: 110px;
+  }
+  .adventure_area .ad_titel h4 {
+    font-size: 38px;
+  }
+  .adventure_area .ad_titel p {
+    font-size: 14px;
+  }
+  .tour_list_area .filter_menu .filter-button-group .btn {
+    padding: 10px 15px;
+    margin-bottom: 14px;
+  }
+  .tour_list_area .filter_menu {
+    text-align: left !important;
+  }
+  .special_offer_area .offer_filter_menu button {
+    width: 48%;
+  }
+  .filter_menu.offer_filter_menu {
+    margin-bottom: 25px;
+  }
+  .ticket_info_dtl_area .ticket_detail_left {
+    margin-bottom: 30px;
+  }
+  .train_bus_ticket_top_area .ticket_box .tickt_btn .btn {
+    font-size: 12px;
+    padding: 10px 12px;
+  }
+  .train_bus_ticket_top_area .ticket_box .prv_nxt_btn {
+    bottom: 0%;
+    left: 5%;
+  }
+  .ticket_box.button_resp {
+    margin-top: 50px;
+  }
+  .train_bus_ticket_top_area .ticket_box .tickt_btn {
+    text-align: left;
+  }
+  .train_bus_ticket_top_area .re_text_box::before {
+    background: transparent;
+  }
+  .train_bus_ticket_top_area .re_text_box {
+    padding-left: 0px;
+    margin-top: 14px;
+  }
+  .train_bus_ticket_top_area .ticket_box .tickt_btn .btn {
+    font-size: 12px;
+    padding: 10px 12px;
+  }
+  .train_bus_ticket_top_area .ticket_box .prv_nxt_btn {
+    bottom: -4%;
+  }
+  .ticket_booking_area .ticket_booking_box {
+    left: 5%;
+    padding: 24px 24px 20px;
+    width: 90%;
+  }
+  .ticket_booking_area .ticket_booking_box .t-check-in, .ticket_booking_area .ticket_booking_box .t-check-out, .ticket_booking_area .ticket_booking_box .t-datepicker {
+    display: block;
+  }
+  .ticket_booking_area .ticket_booking_box .t-check-in, .ticket_booking_area .ticket_booking_box .t-check-out, .ticket_booking_area .ticket_booking_box .t-datepicker {
+    width: 100% !important;
+  }
+  .ticket_booking_area .ticket_booking_box #myTabContent .flight_tab .form-group .submit_btn {
+    width: 60%;
+  }
+  .ticket_booking_area .ticket_booking_box .t-check-in .date_out, .ticket_booking_area .ticket_booking_box .t-check-out .date_out, .ticket_booking_area .ticket_booking_box .t-datepicker .date_out {
+    margin-left: 0px;
+  }
+  .ticket_booking_area .ticket_booking_box .nav-tabs .nav-link {
+    font-size: 14px;
+    padding: 4px 14px;
+    margin-right: 7px;
+  }
+  section.blog_page_area.sm_section_padding {
+    padding-top: 180px;
+  }
+  .ticket_booking_area .ticket_booking_box .nav-tabs .nav-link i {
+    display: none;
+  }
+  .ticket_booking_area .ticket_booking_box #myTabContent #home .flight_nav_tabs .nav-item .nav-link {
+    font-size: 12px;
+    padding: 6px 11px;
+  }
+  .tour_details_area .tour_details_left .over_view {
+    padding: 30px 0px;
+  }
+  .tour_details_area .tour_details_left .tour_overview .distance .dis_num {
+    font-size: 40px;
+  }
+  .tour_details_area .tour_details_left .tour_overview {
+    display: block;
+  }
+  .tour_details_area .tour_details_left .tour_overview .distance {
+    width: 100%;
+    border-right: 1px solid transparent;
+  }
+  .tour_details_area .tour_details_left .tour_overview .location {
+    margin: 55px 0;
+    width: 100%;
+  }
+  .tour_details_area .tour_details_right .tour_details_nav {
+    display: none;
+  }
+  .tour_details_area .tour_details_left .faq_accoridion_area #accordion .card .card-header h5 button {
+    font-size: 14px;
+  }
+  .tour_details_area .tour_details_right .book_trip_form {
+    margin-top: 30px;
+  }
+  .carouselLineArrow-arrow.carouselLineArrow-arrow-right {
+    display: none;
+  }
+  .carouselLineArrow-arrow.carouselLineArrow-arrow-left {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .menu-shrink {
+    display: none;
+  }
+  .inner_banner_area {
+    height: 300px;
+  }
+  .sh_search_box {
+    display: none;
+  }
+  header.header_area .mb_search_icon {
+    display: inline !important;
+  }
+  header.header_area .header_left .header_left_titel h3 {
+    visibility: hidden;
+  }
+  header.header_area .header_left .header_left_titel #nav_icon {
+    left: 19%;
+  }
+  header.header_area .header_left {
+    width: 48px;
+  }
+  header.header_area .drop_search_box {
+    left: -363px;
+  }
+  header.header_area .drop_search_box .search_hd_box .form-group input {
+    width: 540px;
+  }
+  header.header_area {
+    display: block;
+  }
+  .shopping_mall_area .all_shopping_mall ul li {
+    width: 259px;
+    margin-right: 4px;
+  }
+  .mb_header_area .modal .modal-content .modal-body #myTabContent .top_mid_menu ul li .sub_menu {
+    width: 348px;
+  }
+  .middle_content_area .hero_area_banner .banner_img .owl-dots {
+    left: 40%;
+  }
+  .section_titel h4 {
+    font-size: 24px;
+  }
+  .single_shop_area .header_left .left_menu {
+    padding: 20px 12px;
+  }
+  .single_store_middle_ctn .single_store_side_banner a::after {
+    width: 77%;
+  }
+  .single_shop_area .store_mall_area {
+    text-align: center;
+  }
+  .single_shop_area .store_mall_area ul li.store_top_ctn {
+    width: 210px;
+  }
+  .single_shop_area .store_mall_area ul li.store_ctn {
+    width: 210px;
+  }
+  .single_shop_area .store_mall_area ul li.store_ctn .card .shop_mall_img .hover_ctn {
+    right: 20%;
+  }
+  .product_diplay ul li {
+    width: 90px;
+  }
+  .product_details_area .product_details .product_details_btn ul li a.btn {
+    font-size: 14px;
+  }
+  .product_description .pro_description_ctn .singel_product li.nav-item a.nav-link {
+    font-size: 14px;
+    padding: 6px 9px;
+  }
+  .related_pro_area .related_pro_slider .product_item .item_ctn h5 {
+    font-size: 13px;
+  }
+  .wishlist_area .wish_right {
+    top: 0%;
+  }
+  .cart_page .cart_content .cart_detail .cart_quantity .minus {
+    left: 15%;
+  }
+  .cart_page .cart_content .cart_detail .cart_quantity .plus {
+    right: 28%;
+  }
+  .cart_page .cart_btn .clear_btn {
+    font-size: 16px;
+    padding: 11px 12px;
+  }
+  .cart_page .cart_btn .shopping .shopping_btn {
+    font-size: 16px;
+    padding: 11px 12px;
+  }
+  .right_usear_board {
+    display: none;
+  }
+  .login_registration_area #formHolder .brand .heading h2 {
+    font-size: 55px;
+  }
+  .checkout_page .check_out_area .checkout_tab_bar ul li a {
+    font-size: 12px;
+    padding: 0 10px 0 23px;
+  }
+  .login_registration_area #formHolder .form .CTA input {
+    padding: 5px 14px;
+    margin-right: 6px;
+  }
+  .login_registration_area #formHolder .form form {
+    padding: 0 11px;
+  }
+  .service_area .service_inner_ctn .service_ctn.last_ctn::after {
+    display: block;
+  }
+  .offer_area .middle_offer_box {
+    margin-bottom: 3px;
+  }
+  .offer_area .firstbanner {
+    padding-right: 3px;
+  }
+  .offer_area .middlebanner {
+    padding: 0 4px;
+  }
+  .offer_area .secondbanner {
+    padding-left: 4px;
+  }
+  .sort_by_ctn {
+    top: 20px;
+  }
+  .house_list_area .filter_area {
+    margin-bottom: 30px;
+  }
+  .house_list_area .filter_area .hospital_filter_box .box_ctn .search_for p a.btn {
+    width: 100%;
+  }
+  .house_list_area .house_list .listing_ctn ul li {
+    margin-right: 0px;
+  }
+  .house_list_area .house_list .listing_ctn ul li:last-child {
+    margin-right: 0;
+  }
+  .house_list_area .house_list .listing_ctn ul li:nth-child(3) {
+    margin-right: 0;
+  }
+  .house_list_area .house_list .listing_ctn ul li:nth-child(6) {
+    margin-right: 0;
+  }
+  .house_list_area .house_list .listing_ctn ul li:nth-child(9) {
+    margin-right: 0;
+  }
+  .house_list_area .house_list .listing_ctn ul li:nth-child(12) {
+    margin-right: 0;
+  }
+  .house_list_area .house_list .listing_ctn ul li:nth-child(15) {
+    margin-right: 0;
+  }
+  .house_list_area .house_list .listing_ctn ul li:nth-child(18) {
+    margin-right: 0;
+  }
+  .house_list_area .house_list .listing_ctn ul li:nth-child(21) {
+    margin-right: 0;
+  }
+  .house_list_area .house_list .listing_ctn ul li:nth-child(24) {
+    margin-right: 0;
+  }
+  .house_list_area .house_list .listing_ctn ul li:nth-child(26) {
+    margin-right: 0;
+  }
+  .house_list_area .house_list .listing_ctn ul li:nth-child(29) {
+    margin-right: 0;
+  }
+  .house_list_area .house_list .listing_ctn ul li a .listing_item {
+    width: 510px;
+  }
+  .house_list_area .house_list .listing_ctn ul li a .listing_item .listing_img img {
+    height: 220px;
+  }
+  .hotel_list_area .filter_area {
+    margin-bottom: 30px;
+  }
+  .hotel_list_area .filter_area .hotel_filter_box .box_ctn .search_for p a.btn {
+    width: 100%;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul {
+    display: inline;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li {
+    margin-right: 0px;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li:last-child {
+    margin-right: 0;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li:nth-child(3) {
+    margin-right: 0;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li:nth-child(6) {
+    margin-right: 0;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li:nth-child(9) {
+    margin-right: 0;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li:nth-child(12) {
+    margin-right: 0;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li:nth-child(15) {
+    margin-right: 0;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li:nth-child(18) {
+    margin-right: 0;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li:nth-child(21) {
+    margin-right: 0;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li:nth-child(24) {
+    margin-right: 0;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li:nth-child(26) {
+    margin-right: 0;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li:nth-child(29) {
+    margin-right: 0;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li .listing_item {
+    width: 510px;
+    margin-bottom: 20px;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li .listing_item .listing_img img {
+    height: 220px;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li .listing_item .listing_txt .rating {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li .listing_item .listing_txt .rating ul {
+    margin-right: 80px;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li .listing_item .listing_txt .rating ul li {
+    margin-right: 0px;
+    display: inline-block;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li .listing_item .listing_txt .rating ul li a i {
+    color: #F7BA62;
+    font-size: 12px;
+  }
+  .hotel_list_area .restaurent_list .hotel_listing_ctn ul li .listing_item .listing_txt .rating {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .hotel_list_area .restaurent_list .hotel_listing_ctn ul li .listing_item .listing_txt .rating ul {
+    margin-right: 80px;
+  }
+  .hotel_list_area .restaurent_list .hotel_listing_ctn ul li .listing_item .listing_txt .rating ul li {
+    margin-right: 0;
+    display: inline-block;
+  }
+  .hotel_list_area .restaurent_list .hotel_listing_ctn ul li .listing_item .listing_txt .rating p {
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 5px;
+  }
+  .hotel_list_area .restaurent_list .hotel_listing_ctn ul li .listing_item .location_map {
+    margin-bottom: 10px;
+  }
+  .hotel_list_area .restaurent_list .hotel_listing_ctn ul li .listing_item .location_map ul li {
+    display: inline-block;
+  }
+  .letest_listing_area .latest_listing_menu {
+    margin-bottom: 20px;
+  }
+  .letest_listing_area .latest_listing_menu button {
+    font-size: 14px;
+    margin-bottom: 10px;
+    width: 31%;
+    margin-right: 6px;
+  }
+  .add_listing_area .submit_listing .submit_ctn .card .card-body .business_hour_input .all_time span {
+    font-size: 14px;
+  }
+  .add_listing_area .notification_email input {
+    width: 100%;
+    margin: 0;
+  }
+  .related_listing_area .related_pro_slider .listing_item .listing_txt ul li i {
+    margin-right: 0px;
+    font-size: 14px;
+  }
+  .related_listing_area .related_pro_slider .listing_item .listing_txt ul li {
+    font-size: 13px;
+  }
+  .slick-prev {
+    left: 14px;
+  }
+  .slick-next {
+    right: 14px;
+  }
+  .inner_banner_area .house_banner_content {
+    top: 44%;
+    width: 88%;
+  }
+  .inner_banner_area .house_banner_content .house_inner_right ul li a.btn span {
+    display: none;
+  }
+  .inner_banner_area .house_banner_content .house_inner_right {
+    margin-top: -83px;
+  }
+  .inner_banner_area .hotel_banner_content .houser_inner_left .pro_info .titel h1 {
+    font-size: 20px;
+  }
+  .inner_banner_area .hotel_banner_content {
+    top: 60%;
+    width: 88%;
+  }
+  .booking_process_area #checkout-progress .progress-bar .step::after {
+    right: 29%;
+  }
+  .booking_process_area #checkout-progress .progress-bar .step .step-label {
+    margin-left: 72px;
+  }
+  .booking_process_area #boking_step_1 .process_start .condition {
+    margin-top: 10px;
+  }
+  .booking_process_area #boking_step_1 .process_start #sp_request textarea {
+    width: 100%;
+  }
+  .booking_process_area .booking_details_right {
+    margin-top: 40px;
+  }
+  .booking_process_area .booking_details_right .booking_info .info_ctn ul .info_be {
+    margin-left: 20px;
+  }
+  .booking_process_area #boking_step_1 .process_start #arrival_info select {
+    width: 100%;
+  }
+  .booking_process_area #boking_step_2 .payment_confirmation .payment .titel p {
+    margin-bottom: 10px;
+  }
+  .booking_process_area #boking_step_3 .booking_final input {
+    width: 60%;
+  }
+  .booking_process_area #checkout-progress .progress-bar .step .fa-check {
+    right: 40%;
+  }
+  .property_description_area .property_detail_info .details ul li .details_right {
+    width: 70%;
+  }
+  .inner_banner_area .search_box .form-group a.loc_btn {
+    position: absolute;
+    top: 102%;
+    right: 0%;
+    border: 1px solid #06acde;
+    height: 100%;
+    color: #fff;
+    padding: 14px;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+    width: 100%;
+    left: 0;
+    margin: auto;
+    text-align: left;
+    border-radius: 5px;
+  }
+  .search_box .form-group a.search_btn {
+    position: absolute;
+    top: 208%;
+    right: 0;
+    background: #06acde;
+    color: #fff;
+    padding: 6px 28px;
+    font-size: 20px;
+    line-height: 1.5;
+    width: 100%;
+    left: 0;
+    margin: auto;
+  }
+  .inner_banner_area .banner_content {
+    position: absolute;
+    top: 27%;
+    left: 0%;
+    right: 0;
+    z-index: 1;
+  }
+  .inner_banner_area .search_box {
+    margin-top: 30px;
+  }
+  .inner_banner_area .banner_content .inner_titel {
+    font-size: 28px;
+  }
+  .inner_banner_area .banner_img .banner_item_ctn img {
+    height: 300px;
+  }
+  .top_mb_bar.re_mb_bar {
+    position: relative;
+    top: 2%;
+    padding-bottom: 15px;
+  }
+  .top_mb_bar.re_mb_bar .header_rt_box ul li .mb_search_icon {
+    color: #4d4d4d;
+  }
+  .top_mb_bar .header_rt_box ul li .drop_search_box {
+    width: 520px;
+  }
+  .middle_content_area .single_shopping_mall {
+    position: relative;
+    padding: 30px;
+    width: 100%;
+    left: 0%;
+    top: 10%;
+    margin-bottom: 30px;
+  }
+  .contact_left {
+    margin-bottom: 30px;
+  }
+  .inn_banner_Style .banner_content {
+    left: 38%;
+  }
+  .about_area .about_left {
+    margin-bottom: 30px;
+  }
+  .about_area .about_right {
+    position: relative;
+    top: 0;
+  }
+  .blog_page_area .blog_page .blog_ctn {
+    width: 380px;
+    margin: 0 auto 40px;
+  }
+  .blog_page_area .blog_page .blog_ctn .blog_img figure {
+    width: 100%;
+  }
+  .blog_page_area .blog_page .pagination {
+    margin: 30px 0 0px 74px;
+  }
+  .sidebar_area {
+    margin-top: 40px;
+  }
+  .tourist_banner_area .tourist_banner_content h1 {
+    font-size: 34px;
+  }
+  .tourist_banner_area .tourist_banner_content p {
+    font-size: 16px;
+  }
+  .toure_package_area .package_ctn {
+    margin-bottom: 30px;
+  }
+  .tour_destination_area .left_destination {
+    margin-bottom: 40px;
+  }
+  .why_choose_left {
+    margin-bottom: 40px;
+  }
+  .destination_detail_area .destination_detail_box {
+    margin-bottom: 40px;
+  }
+  .slick-prev.slick-arrow {
+    display: none !important;
+  }
+  .slick-next.slick-arrow {
+    display: none !important;
+  }
+  .tourist_banner_area .tourist_banner_content .tour_search {
+    width: 90%;
+    padding: 30px 20px 80px 20px;
+    margin: 30px auto 0;
+  }
+  .tourist_banner_area .tourist_banner_content .tour_search .tour_loc_icon {
+    top: 15%;
+    left: 5%;
+  }
+  .tourist_banner_area .tourist_banner_content .tour_search .tour_month {
+    position: relative;
+    top: 0;
+    left: 0%;
+    height: 50px;
+    width: 100%;
+    margin: 16px 0;
+  }
+  .tourist_banner_area .tourist_banner_content .tour_search .cle_icon {
+    top: 38%;
+    left: 6%;
+  }
+  .tourist_banner_area .tourist_banner_content .tour_search .tour_type {
+    position: relative;
+    top: 0%;
+    right: 0%;
+    height: 50px;
+    width: 100%;
+  }
+  .tourist_banner_area .tourist_banner_content .tour_search .flg_icon {
+    top: 60%;
+    right: 92%;
+  }
+  .tourist_banner_area .tourist_banner_content .tour_search select {
+    border: 1px solid #ecebeb;
+  }
+  .tourist_banner_area .tourist_banner_content .tour_search .btn {
+    top: 79%;
+    right: 156px;
+  }
+  .carouselLineArrow-arrow.carouselLineArrow-arrow-right {
+    display: none;
+  }
+  .carouselLineArrow-arrow.carouselLineArrow-arrow-left {
+    display: none;
+  }
+  .tour_list_area .filter_menu {
+    text-align: left !important;
+  }
+  .tour_list_area .filter_menu .filter-button-group .btn {
+    padding: 10px 16px;
+  }
+  .special_offer_area .offer_filter_menu button {
+    width: 48%;
+  }
+  .filter_menu.offer_filter_menu {
+    margin-bottom: 25px;
+  }
+  .special_offer_area .package_ctn .package_details .package_name_price .tour_nam, .special_offer_area .package_ctn .package_details .package_name_price .price, .tour_offer_box .package_ctn .package_details .package_name_price .tour_nam, .tour_offer_box .package_ctn .package_details .package_name_price .price, .tour_iso_area .package_ctn .package_details .package_name_price .tour_nam, .tour_iso_area .package_ctn .package_details .package_name_price .price, .toure_package_area .package_ctn .package_details .package_name_price .tour_nam, .toure_package_area .package_ctn .package_details .package_name_price .price {
+    font-size: 14px;
+  }
+  .ticket_info_dtl_area .ticket_detail_left {
+    margin-bottom: 30px;
+  }
+  .train_bus_ticket_top_area .ticket_box .tickt_btn .btn {
+    font-size: 12px;
+    padding: 10px 12px;
+  }
+  .train_bus_ticket_top_area .ticket_box .prv_nxt_btn {
+    bottom: -4%;
+  }
+  .ticket_booking_area .ticket_booking_box {
+    left: 5%;
+    width: 90%;
+  }
+  .ticket_booking_area .ticket_booking_box .t-check-in, .ticket_booking_area .ticket_booking_box .t-check-out, .ticket_booking_area .ticket_booking_box .t-datepicker {
+    display: block;
+  }
+  .ticket_booking_area .ticket_booking_box .t-check-in, .ticket_booking_area .ticket_booking_box .t-check-out, .ticket_booking_area .ticket_booking_box .t-datepicker {
+    width: 100% !important;
+  }
+  .ticket_booking_area .ticket_booking_box .t-check-in .date_out, .ticket_booking_area .ticket_booking_box .t-check-out .date_out, .ticket_booking_area .ticket_booking_box .t-datepicker .date_out {
+    margin-left: 0px;
+  }
+  .ticket_booking_area .ticket_booking_box .nav-tabs .nav-link {
+    font-size: 14px;
+    padding: 4px 16px;
+  }
+  section.blog_page_area.sm_section_padding {
+    padding-top: 180px;
+  }
+  .tour_details_area .tour_details_left .over_view {
+    padding: 30px 10px;
+  }
+  .tour_details_area .tour_details_right .book_trip_form {
+    margin-top: 30px;
+  }
+  .tour_details_area .tour_details_right .tour_details_nav {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .menu-shrink {
+    display: none;
+  }
+  .inner_banner_area {
+    height: 300px;
+  }
+  header.header_area {
+    display: block;
+  }
+  header.header_area .header_left {
+    width: 48px;
+  }
+  header.header_area .header_left .header_left_titel #nav_icon {
+    left: 19%;
+  }
+  .shopping_mall_area .all_shopping_mall ul li {
+    width: 230px;
+  }
+  .newsletter_area .newsletter_ctn h4 {
+    font-size: 22px;
+  }
+  .newsletter_area .newsletter_ctn .btn {
+    top: 42px;
+  }
+  .middle_content_area .hero_area_banner .banner_img .owl-dots {
+    left: 43%;
+  }
+  .single_store_middle_ctn .single_store_details .location .shopping_cener_name h6 {
+    font-size: 15px;
+  }
+  .single_store_middle_ctn .banner_area .banner_img .banner_item_ctn img {
+    height: 280px;
+  }
+  .single_shop_area .store_mall_area ul li.store_top_ctn {
+    width: 210px;
+    margin-right: 10px;
+  }
+  .single_shop_area .store_mall_area ul li.store_ctn {
+    width: 210px;
+    margin-right: 10px;
+  }
+  .product_details_area .product_details .product_details_btn ul li {
+    margin-right: 3px;
+  }
+  .product_details_area .product_details .product_details_btn ul li a.btn {
+    font-size: 11px;
+    padding: 7px 5px;
+  }
+  .product_details_area .product_details .product_details_btn ul li a.btn i {
+    font-size: 13px;
+    margin-right: 2px;
+  }
+  .product_details_area .product_details .product_details_btn ul li a.btn {
+    font-size: 11px;
+  }
+  .related_pro_area .related_pro_slider .product_item .item_ctn h5 {
+    font-size: 13px;
+  }
+  .login_registration_area #formHolder .form .CTA input {
+    font-size: 12px;
+    padding: 5px 26px;
+    margin-right: 8px;
+  }
+  .offer_area .middle_offer_box {
+    margin-bottom: 9px;
+  }
+  .top_stores_ctn .slick-slide {
+    margin: 0 4px;
+  }
+  .letest_listing_area .latest_listing_menu {
+    margin-bottom: 20px;
+  }
+  .letest_listing_area .latest_listing_menu button {
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 23%;
+    margin-right: 6px;
+  }
+  .house_list_area .filter_area .hospital_filter_box .box_ctn .search_for p a.btn {
+    width: 100%;
+  }
+  .house_list_area .house_list .listing_ctn ul li {
+    margin-right: 0px;
+  }
+  .house_list_area .house_list .listing_ctn ul li:last-child {
+    margin-right: 0;
+  }
+  .house_list_area .house_list .listing_ctn ul li:nth-child(3) {
+    margin-right: 0;
+  }
+  .house_list_area .house_list .listing_ctn ul li:nth-child(6) {
+    margin-right: 0;
+  }
+  .house_list_area .house_list .listing_ctn ul li:nth-child(9) {
+    margin-right: 0;
+  }
+  .house_list_area .house_list .listing_ctn ul li:nth-child(12) {
+    margin-right: 0;
+  }
+  .house_list_area .house_list .listing_ctn ul li:nth-child(15) {
+    margin-right: 0;
+  }
+  .house_list_area .house_list .listing_ctn ul li:nth-child(18) {
+    margin-right: 0;
+  }
+  .house_list_area .house_list .listing_ctn ul li:nth-child(21) {
+    margin-right: 0;
+  }
+  .house_list_area .house_list .listing_ctn ul li:nth-child(24) {
+    margin-right: 0;
+  }
+  .house_list_area .house_list .listing_ctn ul li:nth-child(26) {
+    margin-right: 0;
+  }
+  .house_list_area .house_list .listing_ctn ul li:nth-child(29) {
+    margin-right: 0;
+  }
+  .house_list_area .house_list .listing_ctn ul li a .listing_item {
+    width: 328px;
+  }
+  .house_list_area .house_list .listing_ctn ul li a .listing_item .listing_img img {
+    height: 200px;
+  }
+  .hotel_list_area .filter_area .hotel_filter_box .box_ctn .search_for p a.btn {
+    width: 100%;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul {
+    display: inline;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li {
+    margin-right: 0px;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li:last-child {
+    margin-right: 0;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li:nth-child(3) {
+    margin-right: 0;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li:nth-child(6) {
+    margin-right: 0;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li:nth-child(9) {
+    margin-right: 0;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li:nth-child(12) {
+    margin-right: 0;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li:nth-child(15) {
+    margin-right: 0;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li:nth-child(18) {
+    margin-right: 0;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li:nth-child(21) {
+    margin-right: 0;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li:nth-child(24) {
+    margin-right: 0;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li:nth-child(26) {
+    margin-right: 0;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li:nth-child(29) {
+    margin-right: 0;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li .listing_item {
+    width: 320px;
+    margin-bottom: 20px;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li .listing_item .listing_img img {
+    height: 200px;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li .listing_item .listing_txt .rating {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li .listing_item .listing_txt .rating ul {
+    margin-right: 80px;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li .listing_item .listing_txt .rating ul li {
+    margin-right: 0px;
+    display: inline-block;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li .listing_item .listing_txt .rating ul li a i {
+    color: #F7BA62;
+    font-size: 12px;
+  }
+  .hotel_list_area .restaurent_list .hotel_listing_ctn ul li .listing_item .listing_txt .rating {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .hotel_list_area .restaurent_list .hotel_listing_ctn ul li .listing_item .listing_txt .rating ul {
+    margin-right: 80px;
+  }
+  .hotel_list_area .restaurent_list .hotel_listing_ctn ul li .listing_item .listing_txt .rating ul li {
+    margin-right: 0;
+    display: inline-block;
+  }
+  .hotel_list_area .restaurent_list .hotel_listing_ctn ul li .listing_item .listing_txt .rating p {
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 5px;
+  }
+  .hotel_list_area .restaurent_list .hotel_listing_ctn ul li .listing_item .location_map {
+    margin-bottom: 10px;
+  }
+  .hotel_list_area .restaurent_list .hotel_listing_ctn ul li .listing_item .location_map ul li {
+    display: inline-block;
+  }
+  .adli_mb_20 {
+    margin-bottom: 20px;
+  }
+  .inner_banner_area .house_banner_content {
+    top: 50%;
+    width: 87%;
+  }
+  .inner_banner_area .house_banner_content .house_inner_right ul li a.btn span {
+    display: none;
+  }
+  .inner_banner_area .house_banner_content .house_inner_right {
+    margin-top: 73px;
+  }
+  .inner_banner_area .house_banner_content .house_inner_right ul li a.btn i {
+    padding-right: 0px;
+  }
+  .slick-next {
+    right: 12px;
+  }
+  .slick-prev {
+    left: 12px;
+  }
+  .booking_process_area #checkout-progress .progress-bar .step::after {
+    right: 27%;
+  }
+  .booking_process_area #checkout-progress .progress-bar .step .step-label {
+    margin-left: 53px;
+  }
+  .booking_process_area #checkout-progress .progress-bar .step .fa-check {
+    right: 39%;
+  }
+  .booking_process_area #boking_step_3 .booking_final input {
+    width: 60%;
+  }
+  .booking_process_area #boking_step_1 .process_start #sp_request textarea {
+    width: 100%;
+  }
+  .booking_process_area #boking_step_1 .process_start #arrival_info select {
+    width: 100%;
+  }
+  .inner_banner_area .house_banner_content {
+    top: 41%;
+  }
+  .search_box {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: 0px auto;
+    margin-top: 0px;
+    width: 80%;
+    z-index: 1;
+  }
+  .inner_banner_area .search_box .form-group a.loc_btn {
+    position: absolute;
+    top: 0;
+    right: 12%;
+    border-left: 1px solid #06acde;
+    height: 100%;
+    color: #fff;
+    padding: 10px 8px;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+    width: 24%;
+  }
+  .inner_banner_area .hotel_banner_content .house_inner_right {
+    margin-top: 26px;
+  }
+  .inner_banner_area .hotel_banner_content {
+    top: 58%;
+  }
+  .top_mb_bar .header_rt_box ul li a .drop_search_box {
+    width: 700px;
+  }
+  .inner_banner_area .banner_img .banner_item_ctn img {
+    height: 300px;
+  }
+  .top_mb_bar.re_mb_bar {
+    position: relative;
+    top: 2%;
+    padding-bottom: 15px;
+  }
+  .top_mb_bar.re_mb_bar .header_rt_box ul li .mb_search_icon {
+    color: #4d4d4d;
+  }
+  .middle_content_area .single_shopping_mall {
+    padding: 26px;
+    width: 318px;
+    top: 22%;
+    left: -70%;
+  }
+  .middle_content_area .single_shopping_mall h4 {
+    font-size: 18px;
+  }
+  .about_area .about_right {
+    position: relative;
+    top: 0;
+  }
+  .blog_page_area .blog_page .blog_ctn .blog_img figure {
+    width: 328px;
+    height: 210px;
+  }
+  .sidebar_area {
+    margin-top: 40px;
+  }
+  .tourist_banner_area .tourist_banner_content {
+    width: 100%;
+    left: 0;
+  }
+  .tourist_banner_area .tourist_banner_content .tour_search .tour_loc_icon {
+    left: 4%;
+  }
+  .tourist_banner_area .tourist_banner_content .tour_search .tour_month {
+    left: 26%;
+  }
+  .tourist_banner_area .tourist_banner_content .tour_search .cle_icon {
+    left: 27%;
+  }
+  .tourist_banner_area .tourist_banner_content h1 {
+    font-size: 50px;
+  }
+  .toure_package_area .package_ctn {
+    margin-bottom: 30px;
+  }
+  .tour_destination_area .left_destination {
+    margin-bottom: 40px;
+  }
+  .why_choose_left {
+    margin-bottom: 40px;
+  }
+  .destination_detail_area .destination_detail_box {
+    padding: 40px 20px 60px 30px;
+    background: #fff;
+    margin-bottom: 40px;
+  }
+  .tourist_banner_area .tourist_banner_content .tour_search {
+    width: 90%;
+    padding: 30px 20px;
+  }
+  .tourist_banner_area .tourist_banner_content .tour_search .btn {
+    right: 20px;
+  }
+  .tourist_banner_area .tourist_banner_content .tour_search .tour_type {
+    right: 24%;
+  }
+  .tourist_banner_area .tourist_banner_content .tour_search .flg_icon {
+    right: 46%;
+  }
+  .tour_list_area .filter_menu {
+    text-align: left !important;
+  }
+  .ticket_info_dtl_area .ticket_detail_left .box_btn .collapse_in {
+    padding-left: 5px;
+  }
+  .train_bus_ticket_top_area .ticket_box .prv_nxt_btn {
+    bottom: 24%;
+    right: -1%;
+  }
+  .train_bus_ticket_top_area .ticket_box .tickt_btn .btn {
+    font-size: 12px;
+    padding: 10px 12px;
+  }
+  .train_bus_ticket_top_area .ticket_box .from_to_location p {
+    font-size: 18px;
+  }
+  .ticket_booking_area .ticket_booking_box .t-check-in, .ticket_booking_area .ticket_booking_box .t-check-out, .ticket_booking_area .ticket_booking_box .t-datepicker {
+    width: 263px !important;
+  }
+  .ticket_booking_area .ticket_booking_box {
+    left: 4%;
+    width: 90%;
+  }
+  .tour_details_area .tour_details_right .book_trip_form {
+    margin-top: 30px;
+  }
+  .tour_details_area .tour_details_right .tour_details_nav {
+    display: none;
+  }
+  .carouselLineArrow-arrow.carouselLineArrow-arrow-right {
+    display: none;
+  }
+  .carouselLineArrow-arrow.carouselLineArrow-arrow-left {
+    display: none;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  .ticket_booking_area .ticket_booking_box .t-check-in, .ticket_booking_area .ticket_booking_box .t-check-out, .ticket_booking_area .ticket_booking_box .t-datepicker {
+    width: 292px !important;
+  }
+}
+
+@media (min-width: 851px) and (max-width: 920px) {
+  .ticket_booking_area .ticket_booking_box .t-check-in, .ticket_booking_area .ticket_booking_box .t-check-out, .ticket_booking_area .ticket_booking_box .t-datepicker {
+    width: 314px !important;
+  }
+}
+
+@media (min-width: 921px) and (max-width: 991px) {
+  .ticket_booking_area .ticket_booking_box .t-check-in, .ticket_booking_area .ticket_booking_box .t-check-out, .ticket_booking_area .ticket_booking_box .t-datepicker {
+    width: 340px !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .menu-shrink {
+    display: none;
+  }
+  header.sm_header_area .top_mid_menu ul li {
+    margin: 0 16px;
+  }
+  header.header_area .top_mid_menu ul li {
+    margin: 0 3px;
+  }
+  header.header_area .top_mid_menu ul li a {
+    font-size: 13px;
+  }
+  .shopping_mall_area .all_shopping_mall ul li {
+    width: 230px;
+  }
+  .product_details_area .product_details .product_details_btn ul li a.btn {
+    font-size: 13px;
+    padding: 7px 9px;
+  }
+  .product_details_area .product_details .product_details_btn ul li a.btn i {
+    font-size: 15px;
+    margin-right: 9px;
+  }
+  .checkout_page .check_out_area .checkout_tab_bar ul li a {
+    font-size: 15px;
+    padding: 0 10px 0 26px;
+  }
+  .service_area .service_inner_ctn .service_ctn .service_icon {
+    margin-right: 8px;
+  }
+  .top_stores_ctn .slick-slide {
+    margin: 0 5px;
+  }
+  .letest_listing_area .latest_listing_menu {
+    margin-bottom: 20px;
+  }
+  .letest_listing_area .latest_listing_menu button {
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 18%;
+    margin-right: 6px;
+  }
+  .house_list_area .filter_area .hospital_filter_box .box_ctn .search_for p a.btn {
+    width: 100%;
+  }
+  .house_list_area .house_list .listing_ctn ul li {
+    margin-right: 20px;
+  }
+  .house_list_area .house_list .listing_ctn ul li:last-child {
+    margin-right: 20px;
+  }
+  .house_list_area .house_list .listing_ctn ul li:nth-child(2) {
+    margin-right: 0px;
+  }
+  .house_list_area .house_list .listing_ctn ul li:nth-child(3) {
+    margin-right: 20px;
+  }
+  .house_list_area .house_list .listing_ctn ul li:nth-child(4) {
+    margin-right: 0px;
+  }
+  .house_list_area .house_list .listing_ctn ul li:nth-child(6) {
+    margin-right: 0px;
+  }
+  .house_list_area .house_list .listing_ctn ul li:nth-child(8) {
+    margin-right: 0px;
+  }
+  .house_list_area .house_list .listing_ctn ul li:nth-child(9) {
+    margin-right: 20px;
+  }
+  .house_list_area .house_list .listing_ctn ul li:nth-child(10) {
+    margin-right: 0px;
+  }
+  .house_list_area .house_list .listing_ctn ul li:nth-child(12) {
+    margin-right: 0px;
+  }
+  .house_list_area .house_list .listing_ctn ul li:nth-child(14) {
+    margin-right: 0px;
+  }
+  .house_list_area .house_list .listing_ctn ul li:nth-child(15) {
+    margin-right: 20px;
+  }
+  .house_list_area .house_list .listing_ctn ul li:nth-child(16) {
+    margin-right: 0px;
+  }
+  .house_list_area .house_list .listing_ctn ul li:nth-child(18) {
+    margin-right: 0px;
+  }
+  .house_list_area .house_list .listing_ctn ul li:nth-child(20) {
+    margin-right: 0px;
+  }
+  .house_list_area .house_list .listing_ctn ul li:nth-child(21) {
+    margin-right: 20px;
+  }
+  .house_list_area .house_list .listing_ctn ul li:nth-child(22) {
+    margin-right: 0px;
+  }
+  .house_list_area .house_list .listing_ctn ul li:nth-child(24) {
+    margin-right: 0px;
+  }
+  .house_list_area .house_list .listing_ctn ul li:nth-child(26) {
+    margin-right: 0px;
+  }
+  .house_list_area .house_list .listing_ctn ul li:nth-child(28) {
+    margin-right: 0px;
+  }
+  .house_list_area .house_list .listing_ctn ul li:nth-child(29) {
+    margin-right: 20px;
+  }
+  .house_list_area .house_list .listing_ctn ul li a .listing_item {
+    width: 290px;
+  }
+  .house_list_area .house_list .listing_ctn ul li a .listing_item .listing_img img {
+    height: 200px;
+  }
+  .hotel_list_area .filter_area .hotel_filter_box .box_ctn .search_for p a.btn {
+    width: 100%;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li {
+    margin-right: 20px;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li:last-child {
+    margin-right: 20px;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li:nth-child(2) {
+    margin-right: 0px;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li:nth-child(3) {
+    margin-right: 20px;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li:nth-child(4) {
+    margin-right: 0px;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li:nth-child(6) {
+    margin-right: 0px;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li:nth-child(8) {
+    margin-right: 0px;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li:nth-child(9) {
+    margin-right: 20px;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li:nth-child(10) {
+    margin-right: 0px;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li:nth-child(12) {
+    margin-right: 0px;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li:nth-child(14) {
+    margin-right: 0px;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li:nth-child(15) {
+    margin-right: 20px;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li:nth-child(16) {
+    margin-right: 0px;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li:nth-child(18) {
+    margin-right: 0px;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li:nth-child(20) {
+    margin-right: 0px;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li:nth-child(21) {
+    margin-right: 20px;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li:nth-child(22) {
+    margin-right: 0px;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li:nth-child(24) {
+    margin-right: 0px;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li:nth-child(26) {
+    margin-right: 0px;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li:nth-child(28) {
+    margin-right: 0px;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li:nth-child(29) {
+    margin-right: 20px;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li .listing_item {
+    width: 290px;
+  }
+  .hotel_list_area .hotel_list .hotel_listing_ctn ul li .listing_item .listing_img img {
+    height: 200px;
+  }
+  .hotel_list_area .restaurent_list .hotel_listing_ctn ul li .listing_item .listing_txt .rating {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .hotel_list_area .restaurent_list .hotel_listing_ctn ul li .listing_item .listing_txt .rating ul {
+    margin-right: 80px;
+  }
+  .hotel_list_area .restaurent_list .hotel_listing_ctn ul li .listing_item .listing_txt .rating ul li {
+    margin-right: 0;
+    display: inline-block;
+  }
+  .hotel_list_area .restaurent_list .hotel_listing_ctn ul li .listing_item .listing_txt .rating p {
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 5px;
+  }
+  .add_listing_area .submit_listing .submit_ctn .card .card-body .business_hour_input .all_time span {
+    font-size: 13px;
+    line-height: 2.7;
+  }
+  .slick-next {
+    right: 18px;
+  }
+  .slick-prev {
+    left: 15px;
+  }
+  .inner_banner_area .house_banner_content .house_inner_right ul li a.btn {
+    padding: 8px 21px;
+  }
+  .inner_banner_area .house_banner_content {
+    width: 94%;
+  }
+  .booking_process_area #checkout-progress .progress-bar .step .step-label {
+    margin-left: 65px;
+  }
+  .booking_process_area #checkout-progress .progress-bar .step::after {
+    right: 31%;
+  }
+  .booking_process_area #boking_step_1 .process_start #sp_request textarea {
+    width: 100%;
+  }
+  .booking_process_area #boking_step_1 .process_start #arrival_info select {
+    width: 60%;
+  }
+  .blog_page_area .blog_page .blog_ctn .blog_img figure {
+    width: 288px;
+    height: 190px;
+  }
+  .tourist_banner_area .tourist_banner_content .tour_search {
+    width: 90%;
+  }
+  .ticket_booking_area .ticket_booking_box {
+    left: 10%;
+    width: 80%;
+  }
+  .ticket_booking_area .ticket_booking_box .t-check-in, .ticket_booking_area .ticket_booking_box .t-check-out, .ticket_booking_area .ticket_booking_box .t-datepicker {
+    width: 316px !important;
+  }
+  .tour_details_area .tour_details_left .over_view {
+    padding: 30px 20px;
+  }
+  .tour_details_area .tour_details_right #navbar_top.fixed-top {
+    top: 9%;
+  }
+  .tourist_banner_area .tourist_banner_content .tour_search .flg_icon {
+    right: 44%;
+  }
+  .tourist_banner_area .tourist_banner_content .tour_search .tour_type {
+    right: 22%;
+  }
+  .tourist_banner_area .tourist_banner_content .tour_search .tour_month {
+    left: 27%;
+  }
+  .tourist_banner_area .tourist_banner_content .tour_search .cle_icon {
+    left: 28%;
+  }
+}
+
+@media (min-width: 1040px) and (max-width: 1080px) {
+  .ticket_booking_area .ticket_booking_box .t-check-in, .ticket_booking_area .ticket_booking_box .t-check-out, .ticket_booking_area .ticket_booking_box .t-datepicker {
+    width: 348px !important;
+  }
+}
+
+@media (min-width: 1081px) and (max-width: 1160px) {
+  .ticket_booking_area .ticket_booking_box .t-check-in, .ticket_booking_area .ticket_booking_box .t-check-out, .ticket_booking_area .ticket_booking_box .t-datepicker {
+    width: 360px !important;
+  }
+}
+
+@media (min-width: 1161px) and (max-width: 1199px) {
+  .ticket_booking_area .ticket_booking_box .t-check-in, .ticket_booking_area .ticket_booking_box .t-check-out, .ticket_booking_area .ticket_booking_box .t-datepicker {
+    width: 390px !important;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1338px) {
+  .smart_city_area .hero_btn ul li {
+    margin-right: 4px;
+  }
+  .tourist_banner_area .tourist_banner_content .tour_search {
+    width: 82%;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .smart_city_area .hero_btn ul li a span {
+    font-size: 13px;
+  }
+  .smart_city_area .hero_btn ul li {
+    margin-right: 6px;
+    width: 13%;
+  }
+  .smart_city_area .hero_btn ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  .video-section .video-shapes img.shape-1 {
+    display: none;
+  }
+  .video-section .video-shapes img.shape-2 {
+    display: none;
+  }
+  .video-section .video-area {
+    margin: auto auto 0px;
+  }
+  section.newsletter-area .newsletter-text h3 {
+    font-size: 34px;
+  }
+  section.newsletter-area .newsletter-from button {
+    width: 40%;
+  }
+  .sm_footer_area .fotter_ctn .footer_news .single-news .news-img {
+    width: 28%;
+  }
+  .sm_footer_area .fotter_ctn .footer_news .single-news .news-text .date {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-collapse {
+    background: #5602aae0;
+    padding: 0 30px;
+  }
+  .top_mb_bar_right {
+    display: block !important;
+  }
+  .top_bar_right {
+    position: fixed;
+    right: 26%;
+    top: 2%;
+  }
+  .mbl_no {
+    display: none;
+  }
+  .smart_city_area {
+    height: 580px;
+  }
+  .smart_city_area h1 {
+    position: absolute;
+    font-size: 40px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    top: 22%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: #ffffff;
+    z-index: 1;
+    letter-spacing: 1.3px;
+    text-align: center;
+  }
+  .smart_city_area .search_box {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 90%;
+    z-index: 1;
+  }
+  .smart_city_area .hero_btn {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    padding: 0 15px;
+  }
+  .smart_city_area .hero_btn ul li {
+    margin-right: 6px;
+    width: 20%;
+    margin-bottom: 10px;
+  }
+  .smart_city_area .hero_btn ul li a {
+    padding: 15px 4px;
+  }
+  .smart_city_area .hero_btn ul li a i {
+    font-size: 30px;
+  }
+  .smart_city_area .hero_btn ul li a span {
+    font-size: 14px;
+  }
+  .smart_city_area .hero_btn {
+    text-align: center;
+  }
+  .sm_find_area .firstbanner {
+    padding-right: 15px;
+  }
+  .sm_find_area .secondbanner {
+    padding-left: 15px;
+  }
+  .sm_find_area .offer_box {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  .sm_find_area .row {
+    margin-bottom: 0 !important;
+  }
+  .choose-area .shape {
+    display: none;
+  }
+  .sm_find_area {
+    position: relative;
+    overflow: hidden;
+    background-color: #e7e7e7;
+    z-index: 3;
+    padding-bottom: 40px;
+  }
+  .sm_find_area .location_img_2 img {
+    height: 168px;
+  }
+  .choose-area .single-choose {
+    margin-bottom: 50px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .choose-area {
+    padding-bottom: 30px;
+  }
+  .video-section .video-area {
+    width: 100%;
+    height: 300px;
+    margin: auto auto 0px;
+  }
+  .video-section .video-shapes img.shape-1 {
+    display: none;
+  }
+  .video-section .video-shapes img.shape-2 {
+    display: none;
+  }
+  .video-section .video-shapes img.shape-3 {
+    width: 22%;
+  }
+  .video-section .video-shapes img.shape-4 {
+    display: none;
+  }
+  .video-section .video-area .right-title {
+    top: 65%;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  .video-section .video-area .left-title {
+    top: 20%;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  .section_titel h4 {
+    font-size: 34px;
+  }
+  .service-section .service-img {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 40px;
+  }
+  .service-section .single-service {
+    position: relative;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .service-section .single-service p {
+    font-size: 16px;
+    max-width: 250px;
+    line-height: 28px;
+    margin: auto;
+  }
+  section.newsletter-area .newsletter-text h3 {
+    font-size: 28px;
+    color: #ffffff;
+    margin: 0;
+    text-align: left;
+    margin-bottom: 10px;
+    top: 15px;
+    position: relative;
+  }
+  section.newsletter-area .newsletter-from button {
+    position: relative;
+    height: 40px;
+    width: 100%;
+    margin-top: 5px;
+  }
+  section.newsletter-area .newsletter-from input {
+    width: 100%;
+    height: 45px;
+    border-radius: 30px;
+    border: none;
+    padding: 10px 15px;
+  }
+  section.newsletter-area .newsletter-from {
+    position: relative;
+    top: 0;
+  }
+  .sm_footer_area .fotter_ctn {
+    margin-bottom: 40px;
+  }
+  .news-img img {
+    width: 74%;
+  }
+  .sm_footer_area {
+    padding-bottom: 40px;
+  }
+  .sm_footer_area .fotter_ctn .footer_news .single-news .news-img {
+    float: left;
+    margin-right: 0;
+  }
+  .sm_footer_area .fotter_ctn .footer_news .single-news .news-text .date {
+    display: block;
+  }
+  .sm_footer_area .fotter_ctn .footer_news .single-news {
+    position: relative;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .navbar-collapse {
+    background: #5602aae0;
+    padding: 0 30px;
+  }
+  .top_mb_bar_right {
+    display: block !important;
+  }
+  .top_bar_right {
+    position: fixed;
+    right: 26%;
+    top: 2%;
+  }
+  .mbl_no {
+    display: none;
+  }
+  .smart_city_area {
+    height: 700px;
+  }
+  .smart_city_area h1 {
+    position: absolute;
+    font-size: 30px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    top: 16%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: #ffffff;
+    z-index: 1;
+    letter-spacing: 1.3px;
+    text-align: center;
+  }
+  .smart_city_area .search_box {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    z-index: 1;
+    padding: 30px;
+  }
+  .smart_city_area .search_box .form-group select {
+    position: relative;
+    right: 0;
+    top: 0;
+    border: 2px solid #06acde !important;
+    height: 100%;
+    color: #fff;
+    background: transparent;
+    padding: 10px 28px;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  .smart_city_area .search_box .form-group a.loc_btn {
+    position: relative;
+    top: 0px;
+    right: 0;
+    border: 2px solid #06acde;
+    height: 100%;
+    color: #fff;
+    padding: 10px 34px;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inherit;
+    margin-bottom: 5px;
+  }
+  .smart_city_area .search_box .form-group a.search_btn {
+    position: relative;
+    bottom: 0px;
+    right: 0;
+    width: 100%;
+    margin-top: 5px;
+    display: inline-block;
+    text-align: center;
+  }
+  .smart_city_area .hero_btn {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    padding: 0 15px;
+  }
+  .smart_city_area .hero_btn ul li {
+    margin-right: 6px;
+    width: 23%;
+    margin-bottom: 10px;
+  }
+  .smart_city_area .hero_btn ul li a {
+    padding: 15px 4px;
+  }
+  .smart_city_area .hero_btn ul li a i {
+    font-size: 30px;
+  }
+  .smart_city_area .hero_btn ul li a span {
+    font-size: 14px;
+  }
+  .smart_city_area .hero_btn {
+    text-align: center;
+  }
+  .sm_find_area .firstbanner {
+    padding-right: 15px;
+  }
+  .sm_find_area .secondbanner {
+    padding-left: 15px;
+  }
+  .sm_find_area .offer_box {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 40px;
+  }
+  .sm_find_area .row {
+    margin-bottom: 0 !important;
+  }
+  .choose-area .shape {
+    display: none;
+  }
+  .sm_find_area {
+    position: relative;
+    overflow: hidden;
+    background-color: #e7e7e7;
+    z-index: 3;
+    padding-bottom: 40px;
+  }
+  .choose-area .single-choose {
+    margin-bottom: 50px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .choose-area {
+    padding-bottom: 30px;
+  }
+  .video-section .video-area {
+    width: 100%;
+    height: 300px;
+    margin: auto auto 0px;
+  }
+  .video-section .video-shapes img.shape-1 {
+    display: none;
+  }
+  .video-section .video-shapes img.shape-2 {
+    display: none;
+  }
+  .video-section .video-shapes img.shape-3 {
+    width: 30%;
+  }
+  .video-section .video-shapes img.shape-4 {
+    display: none;
+  }
+  .video-section .video-area .right-title {
+    top: 65%;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  .video-section .video-area .left-title {
+    top: 20%;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  .section_titel h4 {
+    font-size: 34px;
+  }
+  .service-section .service-img {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 40px;
+  }
+  .service-section .single-service {
+    position: relative;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .service-section .single-service p {
+    font-size: 16px;
+    max-width: 250px;
+    line-height: 28px;
+    margin: auto;
+  }
+  section.newsletter-area .newsletter-text h3 {
+    font-size: 36px;
+    color: #ffffff;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  section.newsletter-area .newsletter-from button {
+    position: relative;
+    height: 45px;
+    width: 100%;
+    margin-top: 10px;
+  }
+  section.newsletter-area .newsletter-from input {
+    width: 100%;
+    height: 45px;
+    border-radius: 30px;
+    border: none;
+    padding: 10px 15px;
+  }
+  section.newsletter-area .newsletter-from {
+    position: relative;
+    top: 0;
+  }
+  .sm_footer_area .fotter_ctn {
+    margin-bottom: 40px;
+  }
+  .news-img img {
+    width: 74%;
+  }
+  .sm_footer_area {
+    padding-bottom: 40px;
+  }
+  .sm_footer_area .fotter_ctn .footer_news .single-news .news-img {
+    float: left;
+    margin-right: 0;
+  }
+  .sm_footer_area .fotter_ctn .footer_news .single-news .news-text .date {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .navbar-collapse {
+    background: #5602aae0;
+    padding: 0 30px;
+  }
+  .top_mb_bar_right {
+    display: block !important;
+  }
+  header.sm_header_area .navbar-toggler i {
+    font-size: 24px;
+  }
+  .top_bar_right {
+    position: fixed;
+    right: 26%;
+    top: 2%;
+  }
+  .mbl_no {
+    display: none;
+  }
+  header.sm_header_area .top_bar_right ul li .top_btn {
+    font-size: 14px;
+    padding: 8px 7px;
+  }
+  header.sm_header_area .top_bar_right ul li .log_btn i {
+    font-size: 20px;
+  }
+  header.sm_header_area .top_bar_right ul li .log_btn {
+    margin-right: 5px;
+  }
+  .smart_city_area {
+    height: 750px;
+  }
+  .smart_city_area h1 {
+    position: absolute;
+    font-size: 26px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    top: 16%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: #ffffff;
+    z-index: 1;
+    letter-spacing: 1.3px;
+    text-align: center;
+  }
+  .smart_city_area .search_box {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    z-index: 1;
+    padding: 30px;
+  }
+  .smart_city_area .search_box .form-group select {
+    position: relative;
+    right: 0;
+    top: 0;
+    border: 2px solid #06acde !important;
+    height: 100%;
+    color: #fff;
+    background: transparent;
+    padding: 10px 28px;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  .smart_city_area .search_box .form-group a.loc_btn {
+    position: relative;
+    top: 0px;
+    right: 0;
+    border: 2px solid #06acde;
+    height: 100%;
+    color: #fff;
+    padding: 10px 34px;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inherit;
+    margin-bottom: 5px;
+  }
+  .smart_city_area .search_box .form-group a.search_btn {
+    position: relative;
+    bottom: 0px;
+    right: 0;
+    width: 100%;
+    margin-top: 5px;
+    display: inline-block;
+    text-align: center;
+  }
+  .smart_city_area .hero_btn {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    padding: 0 15px;
+  }
+  .smart_city_area .hero_btn ul li {
+    margin-right: 6px;
+    width: 30%;
+    margin-bottom: 10px;
+  }
+  .smart_city_area .hero_btn ul li a {
+    padding: 10px 4px;
+  }
+  .smart_city_area .hero_btn ul li a i {
+    font-size: 30px;
+  }
+  .smart_city_area .hero_btn ul li a span {
+    font-size: 12px;
+  }
+  .smart_city_area .hero_btn {
+    text-align: center;
+  }
+  .sm_find_area .firstbanner {
+    padding-right: 15px;
+  }
+  .sm_find_area .secondbanner {
+    padding-left: 15px;
+  }
+  .sm_find_area .offer_box {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 40px;
+  }
+  .sm_find_area .row {
+    margin-bottom: 0 !important;
+  }
+  .choose-area .shape {
+    display: none;
+  }
+  .sm_find_area {
+    position: relative;
+    overflow: hidden;
+    background-color: #e7e7e7;
+    z-index: 3;
+    padding-bottom: 40px;
+  }
+  .choose-area .single-choose {
+    margin-bottom: 50px;
+  }
+  .choose-area {
+    padding-bottom: 30px;
+  }
+  .video-section .video-area {
+    width: 100%;
+    height: 300px;
+    margin: auto auto 0px;
+  }
+  .video-section .video-shapes img.shape-1 {
+    display: none;
+  }
+  .video-section .video-shapes img.shape-2 {
+    display: none;
+  }
+  .video-section .video-shapes img.shape-3 {
+    width: 30%;
+  }
+  .video-section .video-shapes img.shape-4 {
+    display: none;
+  }
+  .video-section .video-area .right-title {
+    top: 65%;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  .video-section .video-area .left-title {
+    top: 20%;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  .section_titel h4 {
+    font-size: 34px;
+  }
+  .service-section .service-img {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 40px;
+  }
+  .service-section .single-service {
+    position: relative;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .service-section .single-service p {
+    font-size: 16px;
+    max-width: 250px;
+    line-height: 28px;
+    margin: auto;
+  }
+  section.newsletter-area .newsletter-text h3 {
+    font-size: 36px;
+    color: #ffffff;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  section.newsletter-area .newsletter-from button {
+    position: relative;
+    height: 45px;
+    width: 100%;
+    margin-top: 10px;
+  }
+  section.newsletter-area .newsletter-from input {
+    width: 100%;
+    height: 45px;
+    border-radius: 30px;
+    border: none;
+    padding: 10px 15px;
+  }
+  section.newsletter-area .newsletter-from {
+    position: relative;
+    top: 0;
+  }
+  .sm_footer_area .fotter_ctn {
+    margin-bottom: 40px;
+  }
+  .news-img img {
+    width: 74%;
+  }
+  .sm_footer_area .fotter_ctn .footer_news .single-news .news-img {
+    float: left;
+    margin-right: 0;
+  }
+  .sm_footer_area .fotter_ctn .footer_news .single-news .news-text .date {
+    display: block;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
